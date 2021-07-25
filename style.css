@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- /* margin: 20px 0;*/
+  /* margin: 20px 0;*/
   text-align: center;
 
   /*overflow: hidden;*/
@@ -52,7 +52,7 @@ h1 {
 
 h1 span {
   display: inline-block;
-  animation: float 4s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
 }
 @keyframes float {
   0%,
@@ -84,7 +84,7 @@ div:hover span {
 
 span:nth-child(4n) {
   /*color: hsl(50, 75%, 55%);*/
- /* text-shadow: 1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%),
+  /* text-shadow: 1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%),
     3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%);*/
 }
 span:nth-child(4n-1) {
@@ -95,12 +95,12 @@ span:nth-child(4n-1) {
   text-shadow: 13px 15px 10px rgb(79, 89, 119), 16px 17px 7px #0c0c0c;
 }
 span:nth-child(4n-2) {
- /* color: hsl(155, 35%, 60%);
+  /* color: hsl(155, 35%, 60%);
   text-shadow: 1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%),
     3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%);*/
 }
 span:nth-child(4n-3) {
- /* color: hsl(30, 65%, 60%);
+  /* color: hsl(30, 65%, 60%);
   text-shadow: 1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%),
     3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%);*/
 }
@@ -189,7 +189,7 @@ h3 {
 }
 
 h4 {
- margin-right: 20px;
+  margin-right: 20px;
   border-bottom: 2px solid #181717;
   padding-bottom: 1px;
 }
@@ -207,7 +207,7 @@ h1 {
   font-size: 22px;
   text-shadow: 13px 15px 10px rgb(46, 76, 167), 16px 17px 7px #0c0c0c;
   text-align: center;
-  font-family: "Georgia", serif
+  font-family: "Georgia", serif;
 }
 .fott {
   background: linear-gradient(45deg, #8dcfee, #f1b58d);
@@ -220,4 +220,6 @@ h1 {
   text-align: center;
   text-shadow: 6px 7px 7px #0c0c0c;
 }
-
+.hiden_h2 {
+  opacity: 0;
+}
